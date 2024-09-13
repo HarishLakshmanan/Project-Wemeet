@@ -1,0 +1,77 @@
+.navbar {
+    padding: 1rem 2rem;
+    
+  }
+
+  .buttons {
+    display: flex; 
+    gap: 1rem;       
+  }
+
+.search-icon {
+position: absolute;
+top: 40%; 
+right: 10px; 
+transform: translateY(-50%); 
+}
+
+.search-icon i,
+.search-icon svg {
+
+font-size: 24px;
+color: blue;
+}
+.three-dots{
+position: absolute;
+top: 50%; 
+right: 10px; 
+left: 170px;
+transform: translateY(-50%); 
+}
+.down-arrow{
+position: absolute;
+top: 50%; 
+right: 10px; 
+transform: translateY(-50%);
+}
+.right-arrow{
+  margin-left: 80px;
+}
+.img-card{
+margin-left: 50px;
+align-items: flex-start;
+
+}
+.text-decoration{
+/* text-decoration: none; */
+list-style-type: none;
+text-align: start;
+margin-top: 30px;
+/* padding: 20px; */
+}
+.start{
+text-align: start;
+
+}
+.vertical-line-ul {
+position: relative;
+}
+.search-bar{
+  margin-left: 290px;
+}
+
+.vertical-line-ul::before {
+content: '';
+position: absolute;
+left: 1px; /* Adjust the left position as needed */
+top: 0;
+bottom: 0;
+border-radius: 15px;
+width: 3px; /* Adjust the width of the line */
+border-left: 7px solid  lightgray; /* Customize the border style and color */
+}
+/* .down-arrow{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+} */
